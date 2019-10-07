@@ -27,8 +27,8 @@ body {
 
 .side{
 	display:block;
-	width:32%;
-	height:100%;
+	width:32%;   /* HOW WIDE WE WANT THE IMGAE/BOX TO BE
+	height:100%; 
 }
 .middle{
 	display:flex;
@@ -43,8 +43,8 @@ body {
 
 /*.mountains {	
 	content: url("images/Mountains_Hapner.png");
-	height: 100%;
-	align-items:flex-end;
+	height: 100%;       /* HOW BIG WE WANT THE IMAGE*/
+	align-items:flex-end;  
 	justify-content: center;
 }*/
 
@@ -65,7 +65,7 @@ body {
 	width:100%;
 }
 .contain-image {
-	max-height: 75%;
+	max-height: 75%;   /* KEEPING THE IMAGE THE SAME SIZE WHEN IN A RESPONSIVE PAGE*/
 	max-width: 75%;
 }
 p{
