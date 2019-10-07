@@ -3,23 +3,30 @@ body {
 	height: 100%;
 	margin: 0;
 	display: block;
+	background-image: url("images/background_desktop.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .top-row{
 	display:flex;
 	height: 60%;
 	width:100%;
-	background-image: url("images/background_desktop.jpg");
+}
+
+.mountains{
+	content: url("images/Mountains_Hapner.png");
 }
 
 .bottom-row{
 	display: flex;
 	height: 40%;
-	width:100%
+	width:100%;
+	background-color:#538D81;
 }
 
 .side{
-	display:flex;
+	display:block;
 	width:32%;
 	height:100%;
 }
@@ -27,26 +34,147 @@ body {
 	display:flex;
 	width:36%;
 	height:100%;
+	content: url("images/hairpin.png");
+	max-height: 55%;
+	max-width: 55%;
 }
 
-.turquoise{
-	background-color:#538D81;
-}
 
-.mountains {	
+
+/*.mountains {	
 	content: url("images/Mountains_Hapner.png");
 	height: 100%;
-	padding-top: 10%;
-	padding-right: 30px;
-	padding-bottom: 50px;
-	padding-left: 89px;
-	
-}
+	align-items:flex-end;
+	justify-content: center;
+}*/
 
 .center-horizontal {
-	align-items: center;	
+	align-items: center;
+}
+.center-bottom{
+	align-items:flex-end;
+	justify-content: center;
 }
 
 .center-vertical {
 	justify-content: center;
 }
+
+.thirds{
+	height: calc(100%/3);
+	width:100%;
+}
+.contain-image {
+	max-height: 75%;
+	max-width: 75%;
+}
+p{
+	text-align: center;
+	font-family: 'Gayathri', sans-serif;
+	color: #0d3749;
+	font-size: 300%;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+
+
+
+/*padding-top: 10%;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 89px;*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+	
+	
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		display: block;
+	}
+	
+	.contain-image {
+		max-height: 75%;
+		max-width: 75%;
+}
+
+	.top-row{
+		display:flex;
+		height: 60%;
+		width:100%;
+		background-image: url("images/moblie1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.mountains{		
+		content:url("images/mountains2.png");
+	}
+
+	.bottom-row{
+		display: flex;
+		height: 40%;
+		width:100%;
+		background-color:#E7AB68;
+	}
+	
+	.side{
+		display:block;
+		width:32%;
+		height:100%;
+	}
+	.middle{
+		display:flex;
+		width:36%;
+		height:100%;
+		content: url("images/hairpin.png");
+		max-height: 75%;
+		max-width: 75%;
+	}
+	
+	.thirds{
+		display:flex;
+		height: calc(100%/3);
+		width:100%;
+	}
+	.center-horizontal {
+		align-items: center;
+	}
+
+	.center-vertical {
+		justify-content: center;
+	}
+	.center-right{
+		align-items:center;
+		justify-content:flex-start;
+	}
+	.center-left{
+		align-items:center;
+		justify-content:flex-end;
+	}
+	p{
+		text-align: center;
+		font-family: 'Gayathri', sans-serif;
+		color: #0d3749;
+		font-size: 150%;
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+}
+
+		
+}
+
+	
+	
